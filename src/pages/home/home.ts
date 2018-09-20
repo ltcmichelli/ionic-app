@@ -12,5 +12,12 @@ export class HomePage {
 
   }
 
+  submit() {
+    let start = (document.getElementById("txtStart") as HTMLInputElement).value;
+    let end = (document.getElementById("txtEnd") as HTMLInputElement).value;
+    console.log(start);
+    console.log(end);
+  }
+
 }
 
